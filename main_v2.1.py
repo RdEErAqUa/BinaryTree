@@ -1,6 +1,8 @@
 binaryTree = {'right' : None, 'element' : None, 'left' : None, 'parent' : None}
 binaryTreeList = [None]
 
+test = [None]
+
 """
 v 2.1
 Добавленно удаление корня
@@ -104,7 +106,6 @@ def removeElement(binaryTreeList, binaryTree, element):
 def zrs(binaryTreeList):
     average = 0.0
     for i in binaryTreeList:
-        print(i)
         average += float(i['element'])
     average = average / len(binaryTreeList)
 
